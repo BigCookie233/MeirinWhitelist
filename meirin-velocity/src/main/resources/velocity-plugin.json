@@ -1,0 +1,8 @@
+{
+  "id": "meirin",
+  "name": "Meirin Whitelist",
+  "version": "1.0-SNAPSHOT",
+  "description": "A whitelist plugin",
+  "authors": ["BigCookie233"],
+  "main": "io.github.bigcookie233.meirin.MeirinWhitelist"
+}

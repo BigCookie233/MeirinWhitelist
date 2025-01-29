@@ -1,0 +1,21 @@
+repositories {
+    mavenLocal()
+
+    maven {
+        url = uri('https://repo.maven.apache.org/maven2/')
+    }
+
+    maven {
+        url = uri('https://repo.papermc.io/repository/maven-public/')
+    }
+}
+
+group = 'io.github.bigcookie233.meirin'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(Javadoc) {
+    options.encoding = 'UTF-8'
+}

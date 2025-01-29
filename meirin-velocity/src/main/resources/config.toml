@@ -1,0 +1,6 @@
+[api]
+secret-key = ""
+endpoint = "https://api.example.com/endpoint"
+
+[messages]
+error-message = "<red>Oops! Something went wrong.</red>"
